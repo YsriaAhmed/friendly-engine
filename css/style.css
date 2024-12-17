@@ -1,0 +1,540 @@
+*{  margin: 0; 
+    padding: 0; 
+box-sizing: border-box;     }
+body{ height: 10000px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;} 
+.parent{width: 100%; height: 100vh; position: relative;       }
+.header{   
+    width: 100%;   height: 50px; 
+    background-color:rgba(214, 68, 68,0.5); 
+     position: absolute; z-index: 5000; position: fixed;top: 0;
+   } 
+   .header_btn{   width: 350px; height: 36px;
+     border: none; border-radius: 20px;
+     float: left;  margin: 8px 0px 4px 35px; }
+
+     .header_list li { display: inline-block; margin: 0px 30px 0px 10px; 
+      line-height: 50px;
+    } 
+  .header_list  li a{text-decoration: none;  
+    color:white;      font-size: large;  }
+  .header_store{ font-weight: 50PX; font-size: 30px;
+     color: white; float: left;
+      margin-left: 60px;
+       margin-top: 10px;  }
+   .header_RE{ font-size: 20px; 
+         margin-right: 290px; 
+          font-weight: 10px;   } 
+  .we{ width: 100%;  height: 100vh;
+         background-image: url(../images/chocolate0.jpg);
+    background-size: cover;  position: absolute;
+    z-index: 1; text-align: center;  }
+  .We_Overlay {  position: absolute;
+       width: 100%; height: 100%;top: 0; left: 0; 
+       background-color: rgba(218, 207, 207,0.5);
+     z-index: 2;}
+  .We_Contect{width: 60%; position:  absolute;
+       top: 50%; left: 50%; transform: translate(-50%,-50%); 
+  text-align: center; }
+  .we_title1{color: white; text-transform: uppercase; 
+    font-size: 60px; }
+  .We_P{color:rgb(63, 9, 9);;  margin: 15px 10%;
+    letter-spacing: 1.5px; } 
+  .We_btn{ width: 135px;  height: 50px;
+     border: 0px; border-radius: 10px; 
+     font-size: 18; text-transform: capitalize;
+  cursor: pointer; }
+  .btn2{ background-color: rgb(121, 32, 32); 
+    margin-left: 10px;
+     color: white; cursor: pointer; }
+  .We_btn:hover{opacity: 0.5;  } 
+  .header_list  li a:focus{color: black; } 
+  .we_title1:hover{ color:brown; cursor: pointer;}     
+  .header_btn:hover{  cursor: help; } 
+  .header_RE:active{ visibility: hidden;}
+   .welcome{ float: left;margin:800px 400px 50px 460px ;    }
+  .fully_title{  font-size: 35px; line-height: 20px; color: rgb(83, 30, 30);}   
+    .line_fully{   width: 80px;
+      height: 5px; 
+      background-color: cornflowerblue ;
+      margin: auto;margin-top: 15px; 
+}
+.fully{ position: absolute; z-index: 5;
+  }
+.container{ width: 80%;  float: left; margin:0px 10% 0px 10%; }
+.fully_content{overflow: auto; } 
+.fully_div{  float: left; width: 35%; height: 200px; padding: 8px;   
+  border: 1px solid brown;   border-radius: 15px;
+  background-color:white ; 
+  text-align: center; 
+  line-height: 30px; 
+  position: relative;
+  
+}
+.one{ top: 0; left: 0;    } 
+.two{top: 0; right: 0; margin-left: 30%; }
+.three{ margin: 10% 32%;        }
+i{  color: brown;}
+.fully_b{  color:rgb(136, 33, 33);  }
+.icon{  font-size: 30px;   }
+.icon{  font-size: 30px;   }
+.title{color: rgb(110, 16, 16); line-height: 50px; }
+.fully_p{   line-height: 20px;}
+
+.fully_div::after{ content: ""; 
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color:brown;
+  transition: 1s;
+  color: white;
+}
+.fully_div:hover::after{ width: 100%; 
+   height: 100%;
+   opacity: 0.7; 
+   }
+   .fully_div:hover .title{color: cornflowerblue;  }
+   .fully_div:hover .fully_b{color: cornflowerblue;  }
+   .fully_title:hover{ color: cornflowerblue;   }
+   .work_parent{width: 100%;  height: 200vh; 
+     background-color: rgba(165, 42, 42, 0.8); position: absolute; 
+     z-index: 11;
+     margin-top: 1392px; 
+    overflow: auto;}
+     .work_container{width: 80%;  float: left;
+     margin: 5% 10% 0px 10%; } 
+     .line_work{  width: 120px; height: 5px; 
+    background-color:cornflowerblue;
+  margin: auto; margin-top: 10px;  }
+  .work_itams{ width: 200; height: 200; 
+    margin-left: 10%; 
+  text-align: center;
+   } 
+  .work_title{ text-align: center; margin-top: 3%;
+    font-size: 50px; color: white; ;}
+  .work1{ margin: 11% 10% 5% 70%; background-image: url(../images/choco1.jpg);
+  background-size: cover;}
+  .work2{ background-image: url(../images/choco2.jpg);
+    background-size: cover; margin:-25% 0px 5% 10% 
+   } 
+  .work3{ margin:5% 0px 5% 40%;background-image: url(../images/choco4.jpg);
+    background-size: cover; }
+  .work4{ background-image: url(../images/choco5.jpg);
+    background-size: cover; margin:5% 0px 5% 70% } 
+  .work5{background-image: url(../images/choco3.jpg);
+    background-size: cover; margin:-25% 0px 5% 10%  } 
+  .work6{ margin-left:40% ; background-image: url(../images/choco6.jpg);
+    background-size: cover;}
+    .work_title1{ color: rgb(85, 139, 241);
+       font-size: 30px; visibility: hidden; }
+    .work_btn{ width: 40px; height: 30px;
+       font-size: 20px;color: cornflowerblue;
+      border: none;border-radius: 15%; visibility: hidden;
+   }
+   .work_itams:hover .work_icon {  visibility: visible } 
+    .work_p  a{text-decoration: none; line-height:90px;
+      font-size: 15px; color:rgb(96, 142, 228);
+     visibility: hidden;} 
+      .work_icon{ color: cornflowerblue;font-size: 20px;
+     visibility: hidden; }
+     .work_itams:hover .work_title1{  visibility: visible;}  
+     .work_itams:hover .work_btn {  visibility: visible } 
+     .work_itams:hover .work_p  a {  visibility: visible } 
+     .parent_offer{ width: 80%;  height: 100%; 
+       position: absolute; z-index: 12;
+      overflow: auto; 
+    margin-top: 2700px;  margin-left: 10%;  }
+     .offer_container{  width: 80%; position: absolute;
+       float: left; z-index: 16;  background-color: blueviolet;  
+          } 
+          .offer_title{  text-align: center;  margin-top: 5%;
+         font-size: 45px; }
+        .line_offer{  width: 90px;height: 5px;
+        background-color: cornflowerblue;
+       margin: auto; margin-top:8px } 
+
+       .offer_itams{ width: 320px; height: 235px; 
+        float: left; 
+        border: 2px solid rgba(100, 148, 237, 0.787);
+        border-radius: 15px;
+        position: relative; } 
+   .offer_1{ margin:20px 0px 30px 3% ;   }
+   .offer_2{ margin:20px 0px 30px 0px;
+    border-left-style: double; border-right-style: double;  }
+   .offer_3{ margin:20px 0px 30px 0px ;    }
+   .offer_4{ margin:0px 0px 0px 3% ;    }
+   .offer_5{ margin:0px 0px 0px 0% ; 
+    border-left-style: double; border-right-style: double;  }
+   .offer_6{ margin:0px 0px 0px 0% ;    }
+   .offer_icon{ margin-top: 15%;
+    float: left;margin-left: 5px; 
+    font-size: 20px; color:brown; }
+   .offer_title2{ padding-left: 12%; display: inline-block;
+     margin-top: -22px; }
+   .offer_p{ padding-left: 12%;  margin-top: 15px; 
+    color: rgba(0, 0, 0, 0.65); }
+    .offer_itams::after{ content: ""; 
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 0;
+      left: 0;
+      background-color:brown;
+      transition: 1s;
+      color:brown;
+    } 
+    .offer_itams:hover::after{ width: 100%; 
+      height: 100%;
+      opacity: 0.7; 
+      }
+    .offer_itams:hover .offer_title2{  color:cornflowerblue; } 
+    .offer_itams:hover .offer_p{  color: black; }
+    .parent_why{ width: 100%;  height: 100%; 
+      position: absolute; z-index: 17;
+     overflow: auto; 
+   margin-top: 3550px;  }
+    .container_why{  width: 85%; position: absolute;
+      float: left; z-index: 16;   
+      margin: 0px 10%; } 
+     .why_div1{ width: 420px; height: 400px;
+  float: left; margin-left: 20px;} 
+  .line_why{ width: 70px;  height: 5px;
+  background-color: cornflowerblue; 
+   margin-top: 10px; }  
+     img{ width: 400px; height: 400px;   }
+    .why_image{ width: 400px; height: 400px;
+    float: left; margin-left:14%; 
+      margin-bottom: 10px; 
+    background-size: cover;}
+  
+    .why_list{ margin-top: 30px; line-height: 50px;
+     list-style-type: none;}
+    .why_title{  margin-top: 30px; font-size: 40px; }
+    .why_p{  margin-top:40px;  }
+    .why_hover{width: 15px; height: 15px; 
+  border: none; border-radius: 50%;
+   float: right; background-color: rgba(0, 0, 0, 0.493);
+  margin: auto; 
+    }
+    .why1{ margin: 1px 250px 0px 20px; }
+    .why3{  margin-right: 2%; } 
+    .why_hover:hover{ background-color: brown; }
+    .why_icon{  color: cornflowerblue;    } 
+    .parent_happy{ width: 100%;  height: 100%; 
+      position: absolute; z-index: 18;
+     overflow: auto; 
+      margin-top: 4500px;
+    }
+    .container_happy{  width: 100%; height: 60%;
+      position: absolute;
+      float: left; z-index: 18;   
+      margin-top: 10%;
+      background-image: url(../images/chocolate.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed; } 
+     .itams_happy{ width: 20%;  height: 20%;
+     float: left;
+    margin-top: 15%;text-align: center; }
+     .happyone{ margin-left: 10%;   }
+     .happy_icon{ display: block; font-size: 35px;
+       color: cornflowerblue; }
+     .happy_b{ display: block;font-size: 30px;
+     margin-top: 5%; color: white; }
+     .happy_span{ display: block; font-size: 25px; 
+      color: white;} 
+     .container_happy::after{ content: ""; 
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color:rgba(165, 42, 42, 0.5);
+    }
+
+      .table_parent{ width: 100%;  height: 100%;
+        position: absolute; z-index: 19;
+        margin-top: 5200px;
+      
+      }
+      .table_container{  width: 100%; height: 100%;
+        position: absolute;
+        float: left; z-index: 19;   
+        } 
+      .table_titleM{     text-align: center;   
+        font-size: 30px; 
+     }  
+     .table_line{   width: 65px; 
+        height: 5px; 
+        background-color: cornflowerblue ;
+      margin: auto; margin-bottom: 6%;
+    margin-top: 10px; } 
+    .table_list  li{  list-style-type: none;   }
+    .table_title{ font-size: 20px; margin: 8% 0px;    
+   }  
+      .table_div1{  width: 250px;    
+      height: 380px;
+        border: 2px solid cornflowerblue ;   border-radius: 15px;
+        float: left; 
+       text-align: center; margin-left: 8%;
+       padding: 2%;
+       margin-left: 15%;
+      }  
+      .table_div2{    width: 250px;    
+      height: 400px;
+      border: 2px solid cornflowerblue;border-radius:5% ;
+       
+      float: left; 
+       text-align: center; margin: 5% 5%; 
+       padding: 2%;
+      }    
+       .table_div3{     width: 250px;    
+        height: 380px;
+        border: 2px solid cornflowerblue; border-radius: 15px;
+         
+        float: left; 
+        text-align: center; 
+        padding: 2%;
+      }  
+      .table_btn1{font-size: 18px; 
+        width: 100px;  height: 100px;
+        border:2px solid cornflowerblue; border-radius: 50%;
+      } 
+      
+      .table_btnA{width: 120px; height: 35px;
+        border: 2px solid cornflowerblue; border-radius: 10%; } 
+     .table_list  {  margin: 10%;  line-height: 25px; } 
+     .tableone{  position: relative;     }
+     .tableone::after{ content: ""; 
+      position: absolute;
+      width:100% ;
+      height: 0;
+      top: 0;
+      left: 0;
+      background-color:brown;
+      transition: 1s;
+      color: white;
+    }
+    .tableone:hover::after{ width: 100%; 
+       height: 100%;
+       opacity: 0.7; 
+       }
+       .tableone:hover .table_title{color: cornflowerblue;  }
+
+       .mark_parent{ width: 100%;  height: 80%; 
+       position: absolute;  z-index: 20;float: left;
+        margin-top: 710px ;
+      }
+       .mark_container{ width: 100%; height: 80%;
+         background-image: url(../images/choco7.jpg);
+        background-size: cover; }
+      .mark_div1{width:320px;   height: 300px;
+       float: left;
+        margin-left: 20%;   margin-top: 6%;}
+      .mark_div2{width: 300px;   height:300px;
+        float: left;
+        margin: 6% 10%; }
+        .mark_image{ width: 100px; height: 100px;
+        border: none; border-radius: 50%; float: left;
+       margin-top: 10%; }
+        .mark_title{ display: inline-block;   float:left;
+        margin-top: 20%; margin-bottom: 10%;
+         margin-left: 5%; font-size:27px ;
+        color: white; }
+        .mark_p{ margin-top: 15%; font-size: 18px; 
+        color:rgb(178, 202, 247);}
+        .mark_S{ margin-left: 5%; font-size: 20px; 
+        color: cornflowerblue; }
+        .markone{background-image: url(../images/images11.jpg);
+        background-size: cover; 
+        background-position: center;}
+        .marktwo{background-image: url(../images/images10.jpg);
+        background-size: cover; 
+       background-position: center;}
+       .parent_team{ width: 100%;  height: 150vh; 
+        position: absolute;  z-index: 21;float: left;
+         margin-top: 1300px ;
+        }
+        .container_team{ width: 80%; height: 80%;
+         margin: 0px 10%; }
+          .team_title{ font-size: 60px; 
+          text-align: center; }
+          .team_title:hover{color: brown;  }
+          .line_team{ width: 130px;  height: 5px;
+          background-color: cornflowerblue;  margin: auto;}
+          .itams_team{ width:350px ;height: 420px;
+             float: left;  margin-top: 10%;
+           background-color: brown; width: 30%;
+          padding: 25px 25px;
+           text-align: center;
+           border: none;
+          border-radius: 5px; 
+           position: relative;}
+          .team_img{  
+             margin: auto;width: 100%;
+             position: relative; }
+          .team_image{ width: 200px;height:300px ;
+          width: 100%;  margin: auto;
+            text-align: center;
+          position: relative;   }
+          .team_image img{  width: 100%; height: 100%;}
+          .team_2{margin-left: 2%; margin-right: 2%; }
+          .team_1{margin-left: 3%;}
+          .team_Overley{position: absolute;
+          top: 0; 
+          width: 100%;
+           height: 100%;
+           background-color: rgba(165, 42, 42, 0.5);
+        }
+        .team_Overley a {display: block;
+          width: 40px;
+          height: 40px;
+          background-color: cornflowerblue;
+          font-size: 25px;
+          margin-left: auto; 
+           visibility: hidden;
+           opacity: 0;
+        }
+        .itams_team:hover .team_Overley a{ visibility: visible; 
+         opacity: 0.5;
+         transition:all 1s;}
+        .team_Overley  a  i{line-height: 40px;
+          color: white; }
+        .info_title{padding: 15px 0px; 
+        }
+        .info_Sp{ color: rgba(0, 0, 0, 0.712);
+         }
+        .itams_team:hover .info_title{ color: white; }
+        .itams_team:hover .info_Sp{ color:cornflowerblue; }
+        .itams_team::after{ content: ""; 
+          position: absolute;
+          width:100% ;
+          height: 0;
+          top: 0;
+          left: 0;
+          background-color:cornflowerblue;
+          transition: 1s;
+          color: white;
+        }
+        .itams_team:hover::after{ width: 100%; 
+          height: 100%;
+          opacity: 0.5; 
+          } 
+          .parent_new{ width: 100%;  height: 150vh; 
+            position: absolute;  z-index: 22;float: left;
+             margin-top: 4000px ;
+             
+            }
+            .container_new{ width: 80%; height: 80%;
+             margin: auto;
+             }
+            .new_img{ width: 230px; height: 230px;
+            background-color: rgba(59, 54, 54, 0.965);
+            position: relative;
+            z-index:23 ;
+            } 
+            .itams_new{ width: 260px; height: 530px;
+          float: left;
+           margin-top: 10%; 
+          padding: 10px 15px;
+           border: 2px solid cornflowerblue;
+          border-radius: 10px; 
+           text-align: center; 
+           position: relative;}
+          .new_1{ margin-left: 6%; } 
+          .new_2{ margin: 6% 5%; }
+          .new_title1{ text-align: center;
+           font-size: 50px; } 
+           .itams_new:hover .new_title1{ color: brown; } 
+          .line_new{width: 120px; height: 5px;
+          background-color: cornflowerblue;
+           margin: auto; }  
+           .new{ font-size: 15px;} 
+           .new_icon{ line-height: 5%;  
+             color: cornflowerblue;  font-size: 15px;
+            margin: 10%   3%; } 
+           .new_title2{ margin-top: 5%; } 
+           .new_p{ margin-top: 10%; 
+            margin-bottom: 5%;
+            color: rgba(0, 0, 0, 0.856); } 
+           .new_more{ text-decoration:none ; color: cornflowerblue; }
+           .itams_new:hover .new_title2  { color: brown; } 
+           .itams_new:hover .new_p{ color: cornflowerblue; }
+           .itams_new:hover .new_more{ color:brown; }
+           .itams_new::after{ content: ""; 
+            position: absolute;
+            width:100% ;
+            height: 0;
+            top: 0;
+            left: 0;
+            background-color:brown;
+            transition: 1s;
+            color: white;
+          }
+          .itams_new:hover::after{ width: 100%; 
+            height: 100%;
+            opacity: 0.5; 
+            } 
+            .parent_end{ width: 100%;  height: 85%; 
+              position: absolute;  z-index: 25;float: left;
+               margin-top: 5200px ;
+              }
+              .container_end{ width: 100%; height: 85%;
+               margin: auto;
+               background-color:rgba(165, 42, 42, 0.575);
+               text-align: center;
+               }
+               .end_img{ width: 300px; height: 300px;
+                border-radius: 50%;
+               margin-top: 3%; } 
+               .end_btn{ margin-left: 6%;
+                width: 50px;
+                height: 50px;
+                border: none;
+                border-radius: 50%;
+                margin: 0.5%;
+               } 
+               .end_icon{ font-size: 25px; } 
+               .copy{ margin-top: 1%;
+               color: rgba(0, 0, 0, 0.602); } 
+                
+          
+           
+            
+           
+            
+           
+             
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+      
+
+      
+
+
+
+   
+
+     
+     
+    
